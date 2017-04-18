@@ -16,11 +16,11 @@ public class TestPayIncrease {
         for (Person p: workers){
             if (p instanceof Employee){
                 currentEmployee = (Employee) p;
-                currentEmployee.increasePay(30);
+                currentEmployee.increasePay(15);
 
             }else if  (p instanceof Contractor){
                 currentContractor = (Contractor) p;
-                currentContractor.increasePay(30);
+                currentContractor.increasePay(15);
             }
         }
     }
